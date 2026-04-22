@@ -36,7 +36,7 @@ function LegalPage({ title, lastUpdated, children, onBack }) {
             <div>
               <div className="footer-wordmark">Margin &amp; Momentum™</div>
               <div className="footer-tagline">Systems Over Hustle™</div>
-              <div className="footer-copy">© 2025 Margin &amp; Momentum™. All rights reserved.</div>
+              <div className="footer-copy">© 2026 Margin &amp; Momentum™. All rights reserved.</div>
               <div className="footer-legal">
                 <a href="#" onClick={e => { e.preventDefault(); onBack() }}>← Back</a>
               </div>
@@ -488,7 +488,7 @@ export default function App() {
             <div>
               <div className="footer-wordmark">Margin &amp; Momentum™</div>
               <div className="footer-tagline">Systems Over Hustle™</div>
-              <div className="footer-copy">© 2025 Margin &amp; Momentum™. All rights reserved.</div>
+              <div className="footer-copy">© 2026 Margin &amp; Momentum™. All rights reserved.</div>
               <div className="footer-legal">
                 <a href="#" onClick={e => { e.preventDefault(); setPage('terms') }}>Terms</a>
                 <a href="#" onClick={e => { e.preventDefault(); setPage('privacy') }}>Privacy</a>
