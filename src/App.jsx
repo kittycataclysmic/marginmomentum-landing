@@ -370,7 +370,7 @@ export default function App() {
         <div className="section-inner">
           <div className="audience-header reveal">
             <div className="section-tag">Who This Is For</div>
-            <h2 className="audience-heading">We Built This for Four Kinds of Operators.</h2>
+            <h2 className="audience-heading">I Built This for Four Kinds of Operators.</h2>
           </div>
 
           <div className="audience-grid">
