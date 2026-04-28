@@ -329,7 +329,7 @@ export default function App() {
               The "work harder" prescription is not wrong. It is incomplete. And incomplete is expensive —
               it costs you time you cannot recover, rates you cannot raise, and clients who do not stay.
             </p>
-            <p>We are being told to hustle when we should be taught to build.</p>
+            <p>Hustle is the tax you pay for a deficit in architecture.</p>
           </div>
           <div className="diagnosis-pull reveal">
             <strong>We are being told to hustle.</strong>
