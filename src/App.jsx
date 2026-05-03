@@ -402,7 +402,7 @@ export default function App() {
             <div className="audience-card reveal">
               <div className="audience-card-number">03</div>
               <div className="audience-card-label">Group 03</div>
-              <h3>The Stuck VA</h3>
+              <h3>The Experienced VA</h3>
               <p>Already working. Low rates. Generalist trap. Doing the work but not moving up.</p>
               <ul className="audience-card-list">
                 <li>Niche repositioning content</li>
