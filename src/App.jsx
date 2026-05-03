@@ -387,7 +387,7 @@ export default function App() {
             <h2 className="io-main-heading">From Operator.<br />To Architect.<br />To Builder.</h2>
             <p className="io-main-sub">
               Three 30-day courses. One Lean Six Sigma methodology woven through every lab.
-              One credential issued by Maine personally — the Intelligence Operator: Complete Stack.
+              One credential issued by The Systems Architect personally — the Intelligence Operator: Complete Stack.
               It does not exist anywhere else in the Filipino VA market.
             </p>
           </div>
