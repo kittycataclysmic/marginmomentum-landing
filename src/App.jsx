@@ -218,7 +218,6 @@ export default function App() {
       {/* HERO */}
       <section className="hero">
         <div className="hero-grid-bg" />
-        <div className="hero-number">M</div>
         <div className="hero-label">A Manifesto for the Filipino VA</div>
         <h1 className="hero-title">
           Systems<br />Over<br /><em>Hustle.</em>
@@ -520,7 +519,7 @@ export default function App() {
                 </div>
               </div>
               <p className="io-stack-desc">
-                All three courses. One investment. One credential reviewed and issued by The Systems Architect personally
+                All three courses. One investment. One credential reviewed and issued by Maine personally
                 after all three capstone submissions are approved. The Complete Stack is not a shortcut —
                 it is a commitment to the full system.
               </p>
@@ -647,7 +646,7 @@ export default function App() {
                 All discounted rates are verified manually before access is granted.
                 To enroll at a discounted rate or to inquire about bundle pricing for your tier,
                 email <a href="mailto:hello@marginmomentum.co">hello@marginmomentum.co</a>.<br /><br />
-                Every certification is issued by The Systems Architect personally after reviewing your capstone submission.
+                Every certification is issued by Maine personally after reviewing your capstone submission.
                 Not auto-generated. Not downloadable from the portal. Reviewed, approved, and issued by hand.
               </div>
             </div>
