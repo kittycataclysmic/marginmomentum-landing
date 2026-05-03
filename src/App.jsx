@@ -403,7 +403,7 @@ export default function App() {
             </div>
             <h3 className="io-stack-title">Intelligence Operator: Complete Stack</h3>
             <p className="io-stack-desc">
-              All three courses. One investment. One credential reviewed and issued by Maine personally
+              All three courses. One investment. One credential reviewed and issued by The Systems Architect personally
               after all three capstone submissions are approved. The Complete Stack is not a shortcut —
               it is a commitment to the full system.
             </p>
@@ -516,7 +516,7 @@ export default function App() {
                 email <a href="mailto:hello@marginmomentum.co">hello@marginmomentum.co</a>.
               </p>
               <p className="io-pricing-note-small">
-                Every certification is issued by Maine personally after reviewing your capstone submission.
+                Every certification is issued by The Systems Architect personally after reviewing your capstone submission.
                 Not auto-generated. Not downloadable from the portal. Reviewed, approved, and issued by hand.
               </p>
             </div>
