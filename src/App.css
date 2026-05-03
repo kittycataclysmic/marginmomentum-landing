@@ -1000,8 +1000,6 @@ section { position: relative; z-index: 1; }
   line-height: 1;
   color: var(--fog);
   letter-spacing: 0.02em;
-  position: sticky;
-  top: calc(var(--nav-h) + 24px);
   margin-bottom: 32px;
 }
 
@@ -1009,8 +1007,6 @@ section { position: relative; z-index: 1; }
   font-size: 15px;
   line-height: 1.8;
   color: var(--text-muted);
-  position: sticky;
-  top: calc(var(--nav-h) + 140px);
 }
 
 /* Right column — all content */
