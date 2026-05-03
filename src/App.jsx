@@ -504,14 +504,7 @@ export default function App() {
 
             {/* Complete Stack */}
             <div className="io-stack-box reveal">
-              <div className="io-stack-price">6,999 PHP</div>
-              <div className="io-stack-savings">Saves 2,007 PHP vs. individual purchase</div>
               <div className="io-stack-title">Intelligence Operator: Complete Stack</div>
-              <p className="io-stack-desc">
-                All three courses. One investment. One credential reviewed and issued by Maine personally
-                after all three capstone submissions are approved. The Complete Stack is not a shortcut —
-                it is a commitment to the full system.
-              </p>
               <div className="io-stack-courses">
                 <div className="io-stack-course">
                   <span className="io-stack-dot" style={{background:'#7C9A92'}} />
@@ -526,11 +519,18 @@ export default function App() {
                   Course 03 — Mastering ChatGPT
                 </div>
               </div>
-              <a href="mailto:hello@marginmomentum.co" className="io-stack-cta">
-                Inquire About the Complete Stack →
-              </a>
-              <p className="io-stack-note">
-                On a discounted tier? Email <a href="mailto:hello@marginmomentum.co">hello@marginmomentum.co</a> for your bundle rate.
+              <p className="io-stack-desc">
+                All three courses. One investment. One credential reviewed and issued by Maine personally
+                after all three capstone submissions are approved. The Complete Stack is not a shortcut —
+                it is a commitment to the full system.
+              </p>
+              <div className="io-stack-price-row">
+                <span className="io-stack-price-sm">6,999 PHP</span>
+                <span className="io-stack-savings">Saves 2,007 PHP vs. individual purchase</span>
+              </div>
+              <p className="io-stack-cta-text">
+                To enroll in the Complete Stack or inquire about bundle pricing for your tier,
+                message us directly at <strong>hello@marginmomentum.co</strong>
               </p>
             </div>
 
