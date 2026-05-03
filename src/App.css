@@ -1038,30 +1038,37 @@ section { position: relative; z-index: 1; }
   transform: translateY(-50%);
 }
 
-.io-stack-price {
+.io-stack-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 20px;
+}
+
+.io-stack-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.io-stack-price-sm {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(52px, 6vw, 80px);
+  font-size: clamp(28px, 3vw, 38px);
   line-height: 1;
-  color: var(--fog);
+  color: var(--text-muted);
   letter-spacing: 0.02em;
-  margin-bottom: 4px;
 }
 
 .io-stack-savings {
   font-family: 'DM Mono', monospace;
   font-size: 10px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--steel);
-  margin-bottom: 24px;
-}
-
-.io-stack-title {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--fog);
-  margin-bottom: 12px;
 }
 
 .io-stack-desc {
@@ -1075,22 +1082,21 @@ section { position: relative; z-index: 1; }
 .io-stack-courses {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 24px 0;
-  border-top: 1px solid var(--rule);
+  gap: 14px;
+  padding: 0 0 28px;
+  margin-bottom: 24px;
   border-bottom: 1px solid var(--rule);
-  margin-bottom: 28px;
 }
 
 .io-stack-course {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-family: 'DM Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--text-muted);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(22px, 2.5vw, 30px);
+  letter-spacing: 0.03em;
+  color: var(--fog);
+  line-height: 1;
 }
 
 .io-stack-dot {
@@ -1336,4 +1342,19 @@ section { position: relative; z-index: 1; }
   .io-course-num { font-size: 28px; width: auto; }
   .io-tier-item { grid-template-columns: 1fr; gap: 12px; }
   .io-pricing { padding-top: 40px; margin-top: 40px; }
+}
+
+.io-stack-cta-text {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  line-height: 1.9;
+  color: var(--steel);
+  border-left: 2px solid var(--rule);
+  padding-left: 16px;
+}
+
+.io-stack-cta-text strong {
+  color: var(--text-muted);
+  font-weight: 500;
 }
