@@ -211,7 +211,7 @@ export default function App() {
           <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
           <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
           <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
-          <li><a href="https://intelligenceoperator001.marginmomentum.co/" target="_blank" rel="noreferrer" className="nav-io-link">The Intelligence Operator</a></li>
+          <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer" className="nav-io-link">The Intelligence Operator</a></li>
         </ul>
       </nav>
 
@@ -505,18 +505,18 @@ export default function App() {
             <div className="io-stack-box reveal">
               <div className="io-stack-title">Intelligence Operator: Complete Stack</div>
               <div className="io-stack-courses">
-                <div className="io-stack-course">
+                <a href="https://intelligenceoperator001.marginmomentum.co/" target="_blank" rel="noreferrer" className="io-stack-course io-stack-course-link">
                   <span className="io-stack-dot" style={{background:'#7C9A92'}} />
                   Course 01 — Mastering Gemini AI &amp; NotebookLM
-                </div>
-                <div className="io-stack-course">
+                </a>
+                <a href="https://intelligenceoperator002.marginmomentum.co/" target="_blank" rel="noreferrer" className="io-stack-course io-stack-course-link">
                   <span className="io-stack-dot" style={{background:'#9A8C7C'}} />
                   Course 02 — Mastering Claude &amp; Cowork
-                </div>
-                <div className="io-stack-course">
+                </a>
+                <a href="https://intelligenceoperator003.marginmomentum.co/" target="_blank" rel="noreferrer" className="io-stack-course io-stack-course-link">
                   <span className="io-stack-dot" style={{background:'#7C8A9A'}} />
                   Course 03 — Mastering ChatGPT
-                </div>
+                </a>
               </div>
               <p className="io-stack-desc">
                 All three courses. One investment. One credential reviewed and issued by The Systems Architect personally
@@ -566,7 +566,9 @@ export default function App() {
                   without your constant presence — so your practice scales beyond your available hours.
                 </p>
                 <div className="io-course-price">2,999 PHP</div>
-                <span className="io-course-soon">Coming Soon</span>
+                <a href="https://intelligenceoperator002.marginmomentum.co/" target="_blank" rel="noreferrer" className="io-course-btn">
+                  Enroll in Course 02 →
+                </a>
               </div>
             </div>
 
@@ -581,7 +583,9 @@ export default function App() {
                   products your clients use directly — without requiring your presence in every interaction.
                 </p>
                 <div className="io-course-price">2,999 PHP</div>
-                <span className="io-course-soon">Coming Soon</span>
+                <a href="https://intelligenceoperator003.marginmomentum.co/" target="_blank" rel="noreferrer" className="io-course-btn">
+                  Enroll in Course 03 →
+                </a>
               </div>
             </div>
 
@@ -672,7 +676,7 @@ export default function App() {
               <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
               <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
               <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
-              <li><a href="https://intelligenceoperator001.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
+              <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
             </ul>
           </div>
         </div>
