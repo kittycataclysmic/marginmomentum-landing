@@ -1354,3 +1354,12 @@ section { position: relative; z-index: 1; }
   color: var(--text-muted);
   font-weight: 500;
 }
+
+/* Stack course rows as links */
+.io-stack-course-link {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.io-stack-course-link:hover {
+  color: var(--fog);
+}
