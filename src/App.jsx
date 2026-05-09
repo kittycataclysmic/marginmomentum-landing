@@ -639,7 +639,10 @@ export default function App() {
                 </div>
                 <div className="io-tier-desc">
                   <strong>Working Students</strong> — balancing daily labor with education, architecting the bridge between your current shift and your future career.<br /><br />
-                  <strong>Neurodivergent Individuals</strong> — deploying AI as a second brain to neutralize the friction of focus. ADHD, Autism. Your output is powered by the systems you build.<br /><br />
+                  <strong>Neurodivergent Individuals</strong><br><br>
+        <strong>ADHD</strong> — The friction is real: tasks that stall, context that evaporates, and the tax of switching attention between the work and the administration of the work. AI becomes the external system that holds the thread. It absorbs the overhead — the scheduling, the summarizing, the follow-up drafts, the second-pass reviews — so your attention goes to what it does best. You bring the ideas and the urgency. The system holds the structure.<br><br>
+        <strong>Autism</strong> — The depth of focus, the pattern recognition, the precision — these are not deficits to compensate for. They are the input the system runs on. What AI removes is the surrounding friction: the social ambiguity of client communication, the formatting and administrative noise, the energy cost of context-switching into tasks that do not match your processing style. You bring the systematic thinking. The system handles the rest.<br><br>
+        <strong>PWDs</strong> — neutralizing physical and sensory barriers with clinical, digital leverage. Powered by the systems you build, not your energy levels or physical constraints.<br><br>
                   <strong>PWDs</strong> — neutralizing physical and sensory barriers with clinical, digital leverage. Powered by the systems you build, not your energy levels or physical constraints.<br /><br />
                   <strong>Seasoned Professionals (50+)</strong> — reclaiming relevance in a digital-first world. Your wisdom is your greatest asset. AI is the engine that scales it.<br /><br />
                   <strong>Minimum Wage Breadwinners</strong> — specifically for those earning the provincial rate. You should not have to choose between survival and growth.
