@@ -209,11 +209,11 @@ export default function App() {
           Margin &amp; Momentum™ <span>Systems Over Hustle™</span>
         </a>
         <ul className="nav-links">
-          <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
-          <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
           <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
-          <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer" className="nav-io-link">The Intelligence Operator</a></li>
+          <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
+          <li><a href="https://app.marginmomentum.co">VA Launch System</a></li>
           <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer" className="nav-polcode-link">POLcode</a></li>
+          <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer" className="nav-io-link">The Intelligence Operator</a></li>
         </ul>
       </nav>
 
@@ -472,13 +472,30 @@ export default function App() {
               wrapped in a lifestyle ad. What I need is for the VA Launch System and the POL Framework™
               to be the most reliable operational architecture you have ever stepped into.
             </p>
-            <p>The structured systems I have built are 100% free for the first 1,000 operators.</p>
+            <p>
+              The VA Systems Library and the Mainframe VA Library are permanently free — no slots,
+              no deadlines, no conditions. The VA Launch System is free for the first 1,000 operators.
+            </p>
           </div>
           <div className="architecture-stat reveal">
             <span className="architecture-stat-num">1,000</span>
             <span className="architecture-stat-label">
               Operators.<br />Free access.<br />No exceptions.
             </span>
+          </div>
+        </div>
+      </section>
+
+      {/* TRANSITION — FREE TO PAID */}
+      <section className="tier-transition">
+        <div className="section-inner">
+          <div className="tier-transition-inner reveal">
+            <div className="tier-transition-rule" />
+            <p className="tier-transition-text">
+              The free systems give you the foundation. POLcode and The Intelligence Operator exist
+              for operators who are ready to go further — past positioning, into execution.
+            </p>
+            <div className="tier-transition-rule" />
           </div>
         </div>
       </section>
