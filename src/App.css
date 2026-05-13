@@ -1464,6 +1464,13 @@ section { position: relative; z-index: 1; }
 /* nav highlight */
 .nav-polcode-link {
   color: var(--fog) !important;
+  border: 1px solid rgba(237,233,227,0.2);
+  padding: 6px 14px !important;
+  transition: background 0.2s, border-color 0.2s !important;
+}
+.nav-polcode-link:hover {
+  background: rgba(237,233,227,0.06);
+  border-color: rgba(237,233,227,0.4);
 }
 
 /* ─── Stats bar ─────────────────────────── */
@@ -1607,4 +1614,41 @@ section { position: relative; z-index: 1; }
 @media (max-width: 480px) {
   .polcode-stats { grid-template-columns: repeat(2, 1fr); }
   .polcode-price { font-size: 40px; }
+}
+
+/* ═══════════════════════════════════════
+   TIER TRANSITION
+═══════════════════════════════════════ */
+.tier-transition {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.tier-transition-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tier-transition-rule {
+  width: 48px;
+  height: 1px;
+  background: rgba(237,233,227,0.2);
+}
+
+.tier-transition-text {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .tier-transition { padding: 48px 0; }
+  .tier-transition-text { font-size: 16px; }
 }
