@@ -8,7 +8,7 @@ function LegalPage({ title, lastUpdated, children, onBack }) {
     <>
       <nav className="nav">
         <a href="#" className="nav-wordmark" onClick={e => { e.preventDefault(); onBack() }}>
-          Margin &amp; Momentum™ <span>Systems Over Hustle™</span>
+          Margin &amp; Momentum™
         </a>
         <ul className="nav-links">
           <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
@@ -206,7 +206,7 @@ export default function App() {
       {/* NAV */}
       <nav className="nav">
         <a href="#" className="nav-wordmark">
-          Margin &amp; Momentum™ <span>Systems Over Hustle™</span>
+          Margin &amp; Momentum™
         </a>
         <ul className="nav-links">
           <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
