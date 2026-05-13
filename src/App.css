@@ -662,6 +662,7 @@ section { position: relative; z-index: 1; }
   letter-spacing: 0.1em;
   color: var(--steel);
   margin-top: 8px;
+  white-space: nowrap;
 }
 
 .footer-legal {
@@ -1651,4 +1652,101 @@ section { position: relative; z-index: 1; }
 @media (max-width: 768px) {
   .tier-transition { padding: 48px 0; }
   .tier-transition-text { font-size: 16px; }
+}
+
+/* ─── POLcode Investment Architecture ─────────────────────────── */
+.polcode-invest {
+  margin-top: 40px;
+  border-top: 1px solid var(--rule);
+  padding-top: 28px;
+}
+
+.polcode-invest-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 20px;
+}
+
+.polcode-invest-tier {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.polcode-invest-tier--community {
+  background: rgba(237,233,227,0.03);
+  padding: 20px 16px;
+  border: 1px solid rgba(237,233,227,0.12);
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.polcode-invest-tier-left {
+  flex-shrink: 0;
+  min-width: 100px;
+}
+
+.polcode-invest-tier-name {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 6px;
+}
+
+.polcode-invest-tier-price {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+}
+
+.polcode-invest-tier--community .polcode-invest-tier-price {
+  color: var(--text-on-dark);
+}
+
+.polcode-invest-tier-price span {
+  font-size: 14px;
+  color: var(--steel);
+  letter-spacing: 0.1em;
+  margin-left: 4px;
+}
+
+.polcode-invest-tier-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.75;
+  padding-top: 4px;
+}
+
+.polcode-invest-tier-desc a {
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.polcode-invest-tier-desc a:hover { color: var(--fog); }
+
+.polcode-lifetime-note {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  line-height: 1.9;
+  color: var(--steel);
+  border-left: 2px solid var(--rule);
+  padding-left: 16px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .polcode-invest-tier { flex-direction: column; gap: 12px; }
+  .polcode-invest-tier-left { min-width: unset; }
 }
