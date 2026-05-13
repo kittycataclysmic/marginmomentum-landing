@@ -1363,3 +1363,248 @@ section { position: relative; z-index: 1; }
 .io-stack-course-link:hover {
   color: var(--fog);
 }
+
+/* ═══════════════════════════════════════
+   POLCODE
+═══════════════════════════════════════ */
+.polcode-section {
+  padding: 120px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.polcode-section .section-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.polcode-overline {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 20px;
+}
+
+.polcode-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(40px, 4.5vw, 64px);
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+  margin-bottom: 28px;
+}
+
+.polcode-lead {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-on-dark);
+  font-style: italic;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  margin-bottom: 16px;
+}
+
+.polcode-sub {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 40px;
+}
+
+.polcode-price-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.polcode-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.polcode-price {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(36px, 4vw, 52px);
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+}
+
+.polcode-price-note {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--steel);
+}
+
+.polcode-cta {
+  display: inline-block;
+  border: 1px solid var(--fog);
+  padding: 14px 32px;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fog);
+  text-decoration: none;
+  transition: background 0.22s, color 0.22s;
+  width: fit-content;
+}
+
+.polcode-cta:hover {
+  background: var(--fog);
+  color: var(--deep);
+}
+
+/* nav highlight */
+.nav-polcode-link {
+  color: var(--fog) !important;
+}
+
+/* ─── Stats bar ─────────────────────────── */
+.polcode-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--rule);
+  margin-bottom: 56px;
+}
+
+.polcode-stat {
+  padding: 32px 20px;
+  border-right: 1px solid var(--rule);
+}
+
+.polcode-stat:last-child {
+  border-right: none;
+}
+
+.polcode-stat-num {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1;
+  color: var(--fog);
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.polcode-stat-label {
+  display: block;
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--steel);
+}
+
+/* ─── Pillars ─────────────────────────── */
+.polcode-pillars {
+  margin-bottom: 48px;
+}
+
+.polcode-pillars-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 0;
+}
+
+.polcode-pillar {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.polcode-pillar-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 10px;
+}
+
+.polcode-pillar p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+/* ─── Deliverables ─────────────────────────── */
+.polcode-deliverables {
+  margin-bottom: 0;
+}
+
+.polcode-deliv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--rule);
+  margin-top: 0;
+}
+
+.polcode-deliv-item {
+  display: flex;
+  gap: 18px;
+  padding: 28px 24px;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule);
+}
+
+.polcode-deliv-item:nth-child(2n) {
+  border-right: none;
+}
+
+.polcode-deliv-item:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
+.polcode-deliv-num {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: var(--steel);
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.polcode-deliv-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  color: var(--fog);
+  margin-bottom: 8px;
+}
+
+.polcode-deliv-item p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* ─── Responsive ─────────────────────────── */
+@media (max-width: 768px) {
+  .polcode-section { padding: 72px 0; }
+  .polcode-section .section-inner { grid-template-columns: 1fr; gap: 40px; }
+  .polcode-heading { font-size: clamp(40px, 10vw, 64px); }
+  .polcode-stats { grid-template-columns: repeat(2, 1fr); }
+  .polcode-stat:nth-child(2) { border-right: none; }
+  .polcode-stat:nth-child(3) { border-right: 1px solid var(--rule); border-top: 1px solid var(--rule); }
+  .polcode-stat:nth-child(4) { border-right: none; border-top: 1px solid var(--rule); }
+  .polcode-deliv-grid { grid-template-columns: 1fr; }
+  .polcode-deliv-item { border-right: none !important; }
+  .polcode-deliv-item:nth-last-child(-n+2) { border-bottom: 1px solid var(--rule); }
+  .polcode-deliv-item:last-child { border-bottom: none; }
+}
+
+@media (max-width: 480px) {
+  .polcode-stats { grid-template-columns: repeat(2, 1fr); }
+  .polcode-price { font-size: 40px; }
+}
