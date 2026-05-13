@@ -14,6 +14,7 @@ function LegalPage({ title, lastUpdated, children, onBack }) {
           <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
           <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
           <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
+          <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer">POLcode</a></li>
         </ul>
       </nav>
 
@@ -212,6 +213,7 @@ export default function App() {
           <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
           <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
           <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer" className="nav-io-link">The Intelligence Operator</a></li>
+          <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer" className="nav-polcode-link">POLcode</a></li>
         </ul>
       </nav>
 
@@ -482,6 +484,114 @@ export default function App() {
       </section>
 
       {/* ═══════════════════════════════════════
+          POLCODE
+      ═══════════════════════════════════════ */}
+      <section className="polcode-section" id="polcode">
+        <div className="section-inner">
+
+          {/* LEFT */}
+          <div className="polcode-left reveal">
+            <div className="section-tag">POLcode</div>
+            <div className="polcode-overline">Communications Architecture for Systems Operators</div>
+            <h2 className="polcode-heading">Precision.<br />On<br />Language.</h2>
+            <p className="polcode-lead">
+              Six levels. 135 personas. One framework that makes executives trust you before the call ends.
+            </p>
+            <p className="polcode-sub">
+              Built for systems operators who are done guessing what to say, when to say it,
+              and how to make it land under pressure.
+            </p>
+            <div className="polcode-price-block">
+              <div className="polcode-price-row">
+                <span className="polcode-price">699 PHP</span>
+                <span className="polcode-price-note">One-time enrollment</span>
+              </div>
+              <a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer" className="polcode-cta">
+                Enter the Program →
+              </a>
+            </div>
+          </div>
+
+          {/* RIGHT */}
+          <div className="polcode-right">
+
+            {/* Stats bar */}
+            <div className="polcode-stats reveal">
+              <div className="polcode-stat">
+                <span className="polcode-stat-num">06</span>
+                <span className="polcode-stat-label">Levels</span>
+              </div>
+              <div className="polcode-stat">
+                <span className="polcode-stat-num">135</span>
+                <span className="polcode-stat-label">Simulated Personas</span>
+              </div>
+              <div className="polcode-stat">
+                <span className="polcode-stat-num">15</span>
+                <span className="polcode-stat-label">Industry Niches</span>
+              </div>
+              <div className="polcode-stat">
+                <span className="polcode-stat-num">∞</span>
+                <span className="polcode-stat-label">Reps Available</span>
+              </div>
+            </div>
+
+            {/* Mastery Pillars */}
+            <div className="polcode-pillars reveal">
+              <div className="polcode-pillars-label">What You Train</div>
+              <div className="polcode-pillar">
+                <div className="polcode-pillar-tag">Spoken Fluency</div>
+                <p>Practice live discovery calls across 15 industry niches. Read the room, ask the right diagnostic questions, and find the point of leverage in real time.</p>
+              </div>
+              <div className="polcode-pillar">
+                <div className="polcode-pillar-tag">Written Authority</div>
+                <p>Craft follow-ups, proposals, and SOPs that signal expertise. Written communication that converts is a strategic asset — not a soft skill.</p>
+              </div>
+              <div className="polcode-pillar">
+                <div className="polcode-pillar-tag">Lean Six Sigma + AI</div>
+                <p>Eliminate communication waste through structured prompting and precision editing. Use AI as a force multiplier — remove rework, reduce ambiguity, engineer outputs that need no follow-up.</p>
+              </div>
+            </div>
+
+            {/* Deliverables */}
+            <div className="polcode-deliverables reveal">
+              <div className="polcode-pillars-label">What You Build</div>
+              <div className="polcode-deliv-grid">
+                <div className="polcode-deliv-item">
+                  <span className="polcode-deliv-num">01</span>
+                  <div>
+                    <div className="polcode-deliv-title">Personal Tone Guide</div>
+                    <p>Your rules for how you communicate across platforms and situations — documented, specific to you, and ready to apply.</p>
+                  </div>
+                </div>
+                <div className="polcode-deliv-item">
+                  <span className="polcode-deliv-num">02</span>
+                  <div>
+                    <div className="polcode-deliv-title">Scenario Portfolio</div>
+                    <p>Your best rewrites, responses, and summaries from practice. Evidence of your skills, not just a claim that you have them.</p>
+                  </div>
+                </div>
+                <div className="polcode-deliv-item">
+                  <span className="polcode-deliv-num">03</span>
+                  <div>
+                    <div className="polcode-deliv-title">Phrase Bank</div>
+                    <p>A personal library of go-to phrases for follow-up, escalation, clarification, and de-escalation — tested and yours.</p>
+                  </div>
+                </div>
+                <div className="polcode-deliv-item">
+                  <span className="polcode-deliv-num">04</span>
+                  <div>
+                    <div className="polcode-deliv-title">Employer Readiness Snapshot</div>
+                    <p>A one-page self-assessment showing exactly what you can do and where you are still growing. Honest, specific, portable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════
           THE INTELLIGENCE OPERATOR
       ═══════════════════════════════════════ */}
       <section className="io-section" id="intelligence-operator">
@@ -679,6 +789,7 @@ export default function App() {
               <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
               <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
               <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
+              <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer">POLcode</a></li>
             </ul>
           </div>
         </div>
