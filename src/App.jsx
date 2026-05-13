@@ -527,6 +527,31 @@ export default function App() {
                 Enter the Program →
               </a>
             </div>
+
+            {/* Investment Architecture */}
+            <div className="polcode-invest reveal">
+              <div className="polcode-invest-label">Investment Architecture</div>
+              <div className="polcode-invest-tier">
+                <div className="polcode-invest-tier-left">
+                  <div className="polcode-invest-tier-name">Regular</div>
+                  <div className="polcode-invest-tier-price">699 <span>PHP</span></div>
+                </div>
+                <div className="polcode-invest-tier-desc">Standard enrollment. Open to all operators.</div>
+              </div>
+              <div className="polcode-invest-tier polcode-invest-tier--community">
+                <div className="polcode-invest-tier-left">
+                  <div className="polcode-invest-tier-name">M&amp;M Community</div>
+                  <div className="polcode-invest-tier-price">333 <span>PHP</span></div>
+                </div>
+                <div className="polcode-invest-tier-desc">
+                  Exclusive rate for Margin &amp; Momentum™ community members.
+                  To enroll at this rate, email <a href="mailto:hello@marginmomentum.co">hello@marginmomentum.co</a>.
+                </div>
+              </div>
+              <div className="polcode-lifetime-note">
+                All enrollments include lifetime access — including all future updates to the program.
+              </div>
+            </div>
           </div>
 
           {/* RIGHT */}
@@ -780,7 +805,8 @@ export default function App() {
                 To enroll at a discounted rate or to inquire about bundle pricing for your tier,
                 email <a href="mailto:hello@marginmomentum.co">hello@marginmomentum.co</a>.<br /><br />
                 Every certification is issued by The Systems Architect personally after reviewing your capstone submission.
-                Not auto-generated. Not downloadable from the portal. Reviewed, approved, and issued by hand.
+                Not auto-generated. Not downloadable from the portal. Reviewed, approved, and issued by hand.<br /><br />
+                All enrollments — at every rate — include lifetime access to the course, including all future updates.
               </div>
             </div>
 
@@ -802,11 +828,11 @@ export default function App() {
               </div>
             </div>
             <ul className="footer-nav">
-              <li><a href="https://app.marginmomentum.co">VA Launch System Portal</a></li>
-              <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
               <li><a href="https://systems.marginmomentum.co">VA Systems Library</a></li>
-              <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
+              <li><a href="https://valibrary.marginmomentum.co">Mainframe VA Library</a></li>
+              <li><a href="https://app.marginmomentum.co">VA Launch System</a></li>
               <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer">POLcode</a></li>
+              <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
             </ul>
           </div>
         </div>
