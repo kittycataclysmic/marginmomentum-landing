@@ -1750,3 +1750,369 @@ section { position: relative; z-index: 1; }
   .polcode-invest-tier { flex-direction: column; gap: 12px; }
   .polcode-invest-tier-left { min-width: unset; }
 }
+/* ═══════════════════════════════════════
+   APP.CSS ADDITIONS — append to existing App.css
+   New styles for: Nav contact link, Free Systems,
+   VLS 3.0 block, Paid Systems grid
+═══════════════════════════════════════ */
+
+/* ─── NAV CONTACT LINK ─── */
+.nav-contact-link {
+  color: var(--steel) !important;
+  font-size: 9px !important;
+  letter-spacing: 0.14em !important;
+  text-transform: lowercase !important;
+}
+.nav-contact-link:hover { color: var(--fog) !important; }
+
+/* ═══════════════════════════════════════
+   ECO TIER HEADER (shared by free + paid)
+═══════════════════════════════════════ */
+.eco-tier-header {
+  margin-bottom: 64px;
+}
+
+/* ═══════════════════════════════════════
+   FREE SYSTEMS SECTION
+═══════════════════════════════════════ */
+.eco-free-section {
+  padding: 120px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Forever free label */
+.eco-forever-label {
+  margin-bottom: 24px;
+}
+
+.eco-forever-label span {
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--steel);
+  padding: 8px 16px;
+  border: 1px solid var(--rule);
+}
+
+/* Two-column library grid */
+.eco-free-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  margin-bottom: 2px;
+}
+
+.eco-free-card {
+  background: var(--deep);
+  padding: 56px 48px;
+  border-right: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.25s ease;
+}
+
+.eco-free-card:last-child { border-right: none; }
+.eco-free-card:hover { background: rgba(26,23,20,0.6); }
+
+.eco-free-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.eco-free-desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-muted);
+  flex: 1;
+  margin-bottom: 32px;
+}
+
+.eco-free-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-top: auto;
+}
+
+.eco-free-link:hover { color: var(--fog); }
+
+/* ═══════════════════════════════════════
+   VLS 3.0 BLOCK
+═══════════════════════════════════════ */
+.vls-block {
+  margin-top: 2px;
+  border: 1px solid var(--rule);
+  background: rgba(26,23,20,0.4);
+}
+
+.vls-block-header {
+  padding: 40px 48px 32px;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  align-items: baseline;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.vls-block-badge {
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel);
+  padding: 7px 14px;
+  border: 1px solid var(--rule);
+  white-space: nowrap;
+}
+
+.vls-block-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+}
+
+.vls-block-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.vls-block-left {
+  padding: 48px;
+  border-right: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+}
+
+.vls-block-desc {
+  font-size: 15px;
+  line-height: 1.85;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+  flex: 1;
+}
+
+.vls-block-stats {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.vls-stat-item {}
+
+.vls-stat-num {
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+}
+
+.vls-stat-label {
+  display: block;
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-top: 6px;
+}
+
+.vls-block-right {
+  padding: 48px;
+}
+
+.vls-feature-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--steel);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 20px;
+}
+
+.vls-feature-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vls-feature-items li {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.65;
+}
+
+.vls-feature-items li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--steel);
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+}
+
+.vls-methodology-note p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+/* ═══════════════════════════════════════
+   PAID SYSTEMS SECTION
+═══════════════════════════════════════ */
+.eco-paid-section {
+  padding: 120px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.eco-paid-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+}
+
+.eco-paid-card {
+  background: var(--ink);
+  padding: 48px 44px;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  transition: background 0.25s ease;
+}
+
+.eco-paid-card:hover { background: rgba(30,27,24,0.95); }
+.eco-paid-card:nth-child(2n) { border-right: none; }
+.eco-paid-card:nth-child(3),
+.eco-paid-card:nth-child(4) { border-bottom: none; }
+
+.eco-paid-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--fog);
+  opacity: 0.07;
+  margin-bottom: 4px;
+}
+
+.eco-paid-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  line-height: 1.05;
+  color: var(--fog);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.eco-paid-tag {
+  font-family: 'DM Mono', monospace;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 20px;
+}
+
+.eco-paid-desc {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.eco-paid-specs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 24px 0 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+
+.eco-paid-specs li {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: var(--steel);
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.65;
+}
+
+.eco-paid-specs li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--steel);
+}
+
+.eco-paid-link {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-top: auto;
+}
+
+.eco-paid-link:hover { color: var(--fog); }
+
+/* ═══════════════════════════════════════
+   RESPONSIVE — new sections
+═══════════════════════════════════════ */
+@media (max-width: 768px) {
+  /* Nav */
+  .nav-contact-link { display: none; }
+
+  /* Free section */
+  .eco-free-section { padding: 80px 0; }
+  .eco-free-grid { grid-template-columns: 1fr; }
+  .eco-free-card { border-right: none; border-bottom: 1px solid var(--rule); }
+  .eco-free-card:last-child { border-bottom: none; }
+  .eco-free-card { padding: 40px 24px; }
+
+  /* VLS block */
+  .vls-block-header { padding: 32px 24px 24px; flex-direction: column; gap: 16px; }
+  .vls-block-inner { grid-template-columns: 1fr; }
+  .vls-block-left { border-right: none; border-bottom: 1px solid var(--rule); padding: 32px 24px; }
+  .vls-block-right { padding: 32px 24px; }
+  .vls-block-stats { gap: 32px; }
+
+  /* Paid section */
+  .eco-paid-section { padding: 80px 0; }
+  .eco-paid-grid { grid-template-columns: 1fr; }
+  .eco-paid-card { border-right: none !important; border-bottom: 1px solid var(--rule) !important; padding: 40px 24px; }
+  .eco-paid-card:last-child { border-bottom: none !important; }
+}
+
+@media (max-width: 480px) {
+  .vls-block-stats { flex-direction: column; gap: 20px; }
+}
