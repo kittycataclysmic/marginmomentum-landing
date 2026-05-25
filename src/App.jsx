@@ -338,7 +338,7 @@ export default function App() {
 
           <div className="eco-tier-header reveal">
             <div className="section-tag">Free Systems</div>
-            <h2 className="column-heading">The Foundation.<br />No Cost.<br />No Deadline.</h2>
+            <h2 className="column-heading">The Foundation.<br />No Cost.<br />No Guesswork.</h2>
           </div>
 
           {/* Forever Free — two libraries */}
@@ -373,11 +373,15 @@ export default function App() {
             </div>
           </div>
 
-          {/* VLS 3.0 — freemium */}
+          {/* VALS 3.0 — freemium */}
+          <div className="eco-forever-label reveal" style={{marginTop: '48px'}}>
+            <span>Free · Structured · 7 Labs · 10-Day Completion Window Per Lab</span>
+          </div>
+
           <div className="vls-block reveal">
             <div className="vls-block-header">
               <div className="vls-block-badge">Free · First 1,000 Operators · 699 PHP After</div>
-              <h3 className="vls-block-title">VA Launch System 3.0</h3>
+              <h3 className="vls-block-title">VALS 3.0</h3>
             </div>
 
             <div className="vls-block-inner">
@@ -591,6 +595,20 @@ export default function App() {
         </div>
       </section>
 
+      {/* ── POLARIS ── */}
+      <section className="polaris-strip">
+        <div className="section-inner">
+          <div className="polaris-inner reveal">
+            <div className="polaris-label">POLARIS — FINAL BUILD</div>
+            <p className="polaris-copy">
+              Nine systems. One methodology. One app. The full stack, mobile-native.
+              POLARIS is the only M&amp;M system that lives in the App Store and Google Play.
+            </p>
+            <div className="polaris-status">IN DEVELOPMENT</div>
+          </div>
+        </div>
+      </section>
+
       {/* ── FOOTER ── */}
       <footer>
         <div className="site-footer">
@@ -607,7 +625,7 @@ export default function App() {
             <ul className="footer-nav">
               <li><a href="https://systems.marginmomentum.co" target="_blank" rel="noreferrer">VA Systems Library</a></li>
               <li><a href="https://valibrary.marginmomentum.co" target="_blank" rel="noreferrer">Mainframe VA Library</a></li>
-              <li><a href="https://app.marginmomentum.co" target="_blank" rel="noreferrer">VA Launch System 3.0</a></li>
+              <li><a href="https://app.marginmomentum.co" target="_blank" rel="noreferrer">VALS 3.0</a></li>
               <li><a href="https://polcode.marginmomentum.co" target="_blank" rel="noreferrer">POLcode</a></li>
               <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
               <li><a href="https://pipeline.marginmomentum.co" target="_blank" rel="noreferrer">The Client Pipeline System</a></li>
