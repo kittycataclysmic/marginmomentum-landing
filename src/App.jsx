@@ -452,7 +452,7 @@ export default function App() {
 
           <div className="eco-tier-header reveal">
             <div className="section-tag">Paid Systems</div>
-            <h2 className="column-heading">Four Products.<br />One Methodology.</h2>
+            <h2 className="column-heading">Six Systems.<br />One Methodology.</h2>
           </div>
 
           <div className="eco-paid-grid reveal">
@@ -543,6 +543,50 @@ export default function App() {
               </a>
             </div>
 
+            {/* 05 — The Operator Standard */}
+            <div className="eco-paid-card">
+              <div className="eco-paid-num">05</div>
+              <div className="eco-paid-name">The Operator Standard</div>
+              <div className="eco-paid-tag">15 Specializations · 35 Days · LSS Applied</div>
+              <p className="eco-paid-desc">
+                Fifteen specializations. One proven methodology. Lean Six Sigma applied to the
+                role — whether you are already in it or building toward it. Thirty-five days to
+                understand what the standard demands, build the systems that meet it, and operate
+                at a level clients notice. Choose your niche. Build your system. Deliver at a
+                level most operators never reach.
+              </p>
+              <ul className="eco-paid-specs">
+                <li>15 specializations · 35 days per niche</li>
+                <li>699 PHP per niche · Free for approved scholars</li>
+                <li>Approved by The Systems Architect</li>
+              </ul>
+              <a href="https://tos.marginmomentum.co" target="_blank" rel="noreferrer" className="eco-paid-link">
+                View the Standard →
+              </a>
+            </div>
+
+            {/* 06 — AI-Ready Funnel Operator */}
+            <div className="eco-paid-card">
+              <div className="eco-paid-num">06</div>
+              <div className="eco-paid-name">AI-Ready Funnel Operator</div>
+              <div className="eco-paid-tag">3-Day Credentialed Sprint · AI-Assisted Systems</div>
+              <p className="eco-paid-desc">
+                A 3-day credentialed sprint for Systems Operators who want to build AI-assisted
+                funnel systems — and position themselves to charge for the outcome, not the hours.
+                Built for operators ready to name the problem before the client does, construct
+                owned infrastructure that survives AI search disruption, and operate in a category
+                most VAs cannot access.
+              </p>
+              <ul className="eco-paid-specs">
+                <li>3 days · 3 labs · Credential issued on completion</li>
+                <li>2,999 PHP</li>
+                <li>Covers lead capture, sales pages, and email infrastructure</li>
+              </ul>
+              <a href="https://funnel.marginmomentum.co" target="_blank" rel="noreferrer" className="eco-paid-link">
+                Access the Sprint →
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
@@ -568,6 +612,8 @@ export default function App() {
               <li><a href="https://intelligenceoperator.marginmomentum.co/" target="_blank" rel="noreferrer">The Intelligence Operator</a></li>
               <li><a href="https://pipeline.marginmomentum.co" target="_blank" rel="noreferrer">The Client Pipeline System</a></li>
               <li><a href="https://operatorsuite.marginmomentum.co" target="_blank" rel="noreferrer">Operator Reference Suite</a></li>
+              <li><a href="https://tos.marginmomentum.co" target="_blank" rel="noreferrer">The Operator Standard</a></li>
+              <li><a href="https://funnel.marginmomentum.co" target="_blank" rel="noreferrer">AI-Ready Funnel Operator</a></li>
             </ul>
           </div>
         </div>
