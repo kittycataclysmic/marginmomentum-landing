@@ -375,7 +375,7 @@ export default function App() {
 
           {/* VALS 3.0 — freemium */}
           <div className="eco-forever-label reveal" style={{marginTop: '48px'}}>
-            <span>Free · Structured · 7 Labs · 10-Day Completion Window Per Lab</span>
+            <span>Free · Structured · 7 Labs · 10-Day Completion Window Per Cohort</span>
           </div>
 
           <div className="vls-block reveal">
@@ -411,20 +411,20 @@ export default function App() {
               <div className="vls-block-right">
                 <div className="vls-feature-label">What the System Covers</div>
                 <ul className="vls-feature-items">
-                  <li>Niche identification and positioning</li>
-                  <li>Rate architecture and pricing strategy</li>
-                  <li>Client acquisition frameworks</li>
-                  <li>Proposal and discovery call systems</li>
-                  <li>Scope and contract documentation</li>
-                  <li>Portfolio building from zero</li>
-                  <li>Operational setup and onboarding systems</li>
+                  <li>Lab 01 — Niche Clarity</li>
+                  <li>Lab 02 — Proof of Skill</li>
+                  <li>Lab 03 — Portfolio Build</li>
+                  <li>Lab 04 — Platform Positioning</li>
+                  <li>Lab 05 — Digital Presence</li>
+                  <li>Lab 06 — Proposal System</li>
+                  <li>Lab 07 — Client Acquisition Sprint</li>
                 </ul>
                 <div className="vls-methodology-note">
                   <div className="vls-feature-label" style={{marginTop: '32px'}}>The Methodology</div>
                   <p>
-                    Every lab runs on Lean Six Sigma DMAIC — Define, Measure, Analyze, Improve,
-                    Control — applied to the operational problems of a remote practice. Each module
-                    is an output you use, not a lesson you complete.
+                    Each lab is built on two tracks — LSS methodology to frame the problem
+                    correctly, and AI to execute it precisely. Structure and intelligence,
+                    woven into every output.
                   </p>
                 </div>
               </div>
@@ -440,7 +440,7 @@ export default function App() {
           <div className="tier-transition-inner reveal">
             <div className="tier-transition-rule" />
             <p className="tier-transition-text">
-              The free systems give you the foundation. The paid systems give you the operational
+              The free systems give you the foundation.<br />The paid systems give you the operational
               depth, communication architecture, and advanced programs for operators ready to go further.
             </p>
             <div className="tier-transition-rule" />
