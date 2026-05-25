@@ -2116,3 +2116,43 @@ section { position: relative; z-index: 1; }
 @media (max-width: 480px) {
   .vls-block-stats { flex-direction: column; gap: 20px; }
 }
+
+/* ── POLARIS STRIP ── */
+.polaris-strip {
+  padding: 100px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.polaris-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.polaris-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  letter-spacing: 0.08em;
+  color: var(--fog);
+}
+
+.polaris-copy {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.polaris-status {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  border: 1px solid var(--rule);
+  padding: 6px 16px;
+  text-transform: uppercase;
+}
